@@ -1,0 +1,11 @@
+.container{
+    width: 100%;
+    flex:display;
+    background-color: blue;
+}
+#header-top{
+    height: 20px;
+    width:100%;
+    background-color: orangered;
+
+}

@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+body{
+
+    margin:0px;
+    padding:0px;
+    
+}
+nav{
+    width: 100%;
+    height: 157px;
+    background-color:white;
+    overflow: outo;
+    display:block;
+    padding-left:100px;
+    line-height: 90px;
+    
+}
+ul{ padding:0px;
+    margin: 0px 0px 0px 150px;
+    list-style-type: none;
+    
+
+}
+li{
+    float:left;
+}
+.logo img{
+    position:absolute;
+}
+nav a{
+    width:100px;
+    display: block;
+    padding :20px 15px;
+    text-decoration: none;
+    font-family: arial;
+    color:black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.main-btn{
+
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 0px solid #0154f7;
+    padding: 0 38px;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+    line-height: 55px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 5;
+
+    background-color: orangered;
+    position: relative;
+    margin-top:45px;
+    margin-left: 75px;
+
+
+}
+.main-btn:hover{
+    background-color:blue;
+}
+
+ * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  height: 50pxss;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+} 
+.flex-container
+{
+    background-color: navy;
+    width: 100%;
+    height: outo;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.flex-container > div {
+  background-color:whitesmoke;
+  width: 270px;
+  height:290px;
+  text-align: center;
+  line-height: normal;
+  font-size: 20px;
+  border-radius: 15px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #222;
+  padding:0px 10px;
+  padding-top: 115px;
+  margin: 10px;
+
+
+  
+}
+
+.flex-container > div:hover{
+    background-color: orangered;
+    color:#fff
+}
+.flex-container > div:hover .buy-now{
+    color:#fff
+}
+
+.buy-now{
+    color:orangered ;text-align:center;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.buy-now:hover
+{
+    color: #fff;
+}
+
+.history-container{
+
+  width: 100%;
+  background-color: white;
+  margin-top: 80px;
+  display:flex;
+
+}
+.img-histry
+{
+  width: 40%;
+  
+
+ 
+  margin-left:50px;
+  margin-top:20px;
+  
+}
+.img{
+  width:500px; 
+  height: 100px;}
+
+.text-histry{
+  
+  float:right;
+  width: 60%;
+  margin-top: 40px;
+ 
+ 
+
+}
+
+.text-histry h1{
+  color:gray;
+ font-size:40px ;
+ padding-top:30px;
+ text-align: center;
+}
+.text-histry h2{
+  text-align: center;
+  color:black;
+  font-size: 40px;
+}
+.text-histry h3{
+  text-align: center;
+  color:gray;
+
+
+}
+.text-histry p{
+  text-align: justify;
+  color:black;
+  /* padding-left:20px; */
+  margin: 50px;
+  
+}
+.horizan-line{
+  width: 70%;
+}
+.history{
+  color: orangered;
+}
+.container-footer{
+ background-image: url(img/bar2.png);
+ 
+  width: 100%;
+  color: white; 
+  text-align: center;
+  font-size: 25px;
+    height: outo;
+   
+    padding-top: 40px;
+    margin-top: 70px;
+    
+}
+.working-process{
+ 
+    width: 100%;
+    display:flex;
+    padding-left: 80px;
+    
+    justify-content: center;
+
+   
+   
+   
+}
+.working-process>div{
+  height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 120px;
+    border: 3px dashed #fff;
+    color: #fff;
+    font-size: 30px;
+   
+    
+}
+.working-process.icon-1{
+  text-align: center;
+  color:white;
+  padding-left:20px;
+}
+
+.footer-2{
+  
+  width:100%;
+  display:flex;
+}
+.quote-thumb{
+  width:50%;
+  float:left;
+}
+.text-form{
+  width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+  font-size: 20px;
+ height: 80px;
+ background-color: rgb(189, 211, 214);
+ color:gray;
+ border: none;
+}
+.number-form{
+  width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+  font-size: 20px;
+ height: 80px;
+ background-color: rgb(189, 211, 214);
+ color:gray;
+ border: none;
+}
+.text-form:hover{
+  background-color: white;
+  color:gray;
+
+}
+.submit-btn{
+  height: 70px; width:200px;background-color:#0154f7;
+  float:right; color:white;font-size: 20px;
+  border-radius: 5px;
+  border: none;
+}
+.submit-btn:hover{
+  background-color: orangered;
+  color:white;
+  
+}
+
+.container-footer2{
+
+ 
+  width: 100%;
+  color: white; 
+  text-align: center;
+  font-size: 25px;
+    height: outo;
+   margin-top: 50px;
+   
+    
+}
+
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <header id="header-top" style="width:100%; height:60px; background-color:orangered; line-height:normal;
+         color:white; padding-top:20px; padding-left:95px; font-size:20px;margin-bottom: 0px;
+         "><strong> Turning Brand into Amazon best seller</strong></header>
+ 
+      
+        
+   <div class="logo"><img src="img/logos.jpg" style=" width:200px;height:60;">                </div> 
+   <nav>  
+     <ul>
+      <li><a href="Home.html"> Home</a></li>
+      <li><a href="About.html"> About</a></li>
+      <li><a href="services.html"> Services</a></li>
+      <li><a href="contect.html"> Contect</a></li>
+      <li><a href="login.html"> Login</a></li>
+      <li><a href="register.html"> Register</a></li>
+     </ul>
+
+     <button class="main-btn">Lets Get Started</button>
+     </nav>
+    
+    </div>
+     <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="img/slider1.jpg" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="img/slider2.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="img/slider3.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script> 
+        
+      <div  style="background-color:navy; margin-top: none;">
+        
+        <p style="color: rgb(158, 153, 153);text-align:center;font-family:Arial, Helvetica, sans-serif;
+        font: weight 100px; font-size:38px; padding-top:25px">   One-Stop-Shop Services                </p>
+        
+            <p style="color:white;text-align:center;font-family:Arial, Helvetica, sans-serif;
+            font: weight 10000px; font-size:48px; margin-top:0px;">  
+             For Amazon <span style="color:orangered">Seller</span>  </p>         
+                        
+            
+
+
+        
+
+        <a href="youtube.com" style="text-decoration:none;">
+          <div class="flex-container">
+
+          
+    
+          
+            <div>AMAZON ACCOUNT UK <p class="buy-now">Buy Now </p></div>
+            <div>ANNUAL REPORT FILING <p class="buy-now">Buy Now </p></div>
+            <div>SALE TEX RETURN USA<p class="buy-now">Buy Now </p></div>
+            <div>TRANSFERWISE ACCOUNT USA <p class="buy-now">Buy Now </p></div>
+           
+
+
+      </div>
+        </a>
+
+        <a href="youtube.com" style="text-decoration:none;">
+        <div class="flex-container">
+          
+            <div>AMAZON ACCOUNT UK <p class="buy-now">Buy Now </p></div> 
+          
+            <div>ANNUAL REPORT FILING <p class="buy-now">Buy Now </p></div>
+            
+            <div>SALE TEX RETURN USA <p class="buy-now">Buy Now </p></div>
+            
+            <div>TRANSFERWISE ACCOUNT USA <p class="buy-now">Buy Now </p></div>
+
+
+        </div></a>
+         
+        <a href="youtube.com" style="text-decoration:none;">
+        <div class="flex-container">
+          
+            <div>AMAZON ACCOUNT UK <p class="buy-now">Buy Now </p></div>
+            
+            <div>ANNUAL REPORT FILING <p class="buy-now">Buy Now </p></div>
+           
+            <div>SALE TEX RETURN USA <p class="buy-now">Buy Now </p></div>
+            
+            <div>TRANSFERWISE ACCOUNT USA <p class="buy-now">Buy Now </p></div>
+
+
+        </div></a>
+        <a href="youtube.com" style="text-decoration:none;">
+        <div class="flex-container">
+          
+            <div>AMAZON ACCOUNT UK <p class="buy-now">Buy Now </p></div>
+           
+            <div>ANNUAL REPORT FILING <p class="buy-now">Buy Now </p></div>
+            
+            
+            <div>SALE TEX RETURN USA <p class="buy-now">Buy Now </p></div>
+         
+            <div>TRANSFERWISE ACCOUNT USA <p class="buy-now">Buy Now </p></div>
+
+
+        </div></a>
+
+        <a href="youtube.com" style="text-decoration:none;">
+        <div class="flex-container">
+          
+            <div>AMAZON ACCOUNT UK <p class="buy-now">Buy Now </p></div>
+           
+            <div>ANNUAL REPORT FILING <p class="buy-now">Buy Now </p></div>
+           
+            <div>SALE TEX RETURN USA <p class="buy-now">Buy Now </p></div>
+           
+          </div></a>
+
+          </div>
+          <div class="history-container">
+            <div class="img-histry">
+               <img src="img/about-thumb.jpg" ></div>
+            <div class="text-histry">
+              <h1>Perfect Solution Makes</h1>
+              <h2> A Successesful <span class="history">History</span></h2>
+              
+              <h3>Some Thing Knows About Our Company </h3>
+              <hr class="horizan-line">
+              <p> We want our nation to become strong enough to compete in the arena of International market. 
+                That can only happen when we will have the familiaity with the new trends trade. We develop opportunities
+                 for people who have urge in them to excel in their lives.
+                 We provide them a direction which leads them to success.
+                  Take a step forward and grab unlimited opportunities.</p>
+
+
+
+
+
+
+              </div>
+              </div>
+
+             
+              <div class="container-footer">
+                
+                
+            <img style="width: 100%; height:auto" src="img/bar2.png">
+              </div>
+
+
+              <div class="footer-2">
+                <div class="quote-thumb-1">
+                  <img style="width:600px; height:550px; padding:40px; margin-top: 100px;" src="img/quote-thumb.jpg">
+                </div>
+               <div style="margin-top:30px;padding-left:30px;text-align: left; font-family: 
+               Arial, Helvetica, sans-serif; font-size: 25px; font-weight: 1000px;"> 
+                 <h2> Get A Quote</h2>
+                   <h1> Free <span style="color:orangered;">Consultations</span></h1>
+
+
+                  <div>
+
+                    <form  action="/action_page.php">
+                      <label for="fname">Full Name Here:</label><br>
+                      <input class="text-form" type="text" id="fname" name="fname" value="Mehar Maah"><br>
+
+                      <label for="P_no">Contect Number:</label><br>
+                      <input class="number-form" type="number" id="P-no" name="P_no" value="+923008030312"><br>
+
+                      <label for="t_chat">I am Talking About</label><br>
+                      <input class="text-form" type="text" id="chat" name="t_chat" value="I Would Like To Discuss"><br>
+                      <label for="msg">Write message</label><br>
+                      <input class="text-form" type="text" id="msg" name="msg_1" value="Leave A Message">
+                      <input class="submit-btn" type="submit" value="Send Message">
+                    </form> 
+                    </div>
+                  </div>
+
+
+              </div>
+              <div class="container-footer2">
+             <img src="img/footerL.png">
+              </div>
+                 
+ 
+
+
+                
+                
+
+
+
+
+
+
+
+
+
+              
+
+
+
+
+          
+
+        
+        
+
+</body>
+</html>
